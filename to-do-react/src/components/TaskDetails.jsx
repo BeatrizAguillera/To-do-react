@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import AddChecklistItem from "./AddChecklistItem";
 
 import Button from "./Button";
 
 function TaskDetails() {
+    const [ showAddChecklist, setShowAddChecklist ] = useState(false)
+
     // const [loading, setLoading] = useState(false)
     const [task, setTask] = useState({})
 
@@ -26,15 +29,19 @@ function TaskDetails() {
         fetchTask()
     })
 
-    return (<>
-            <div className="btn">
-                <Button text="Go Back" onClick={() => navigate("/")}></Button>
-            </div>
-            <div className="task-details container">
-                <h2>{task.title}</h2>
-                <p>{task.details}</p>
-            </div>
-        </>);
+    return (
+      <>
+        <div className="btn">
+          <Button text="Go Back" onClick={() => navigate("/")}></Button>
+        </div>
+        <div className="task-details container">
+          <h2>{task.title}</h2>
+          <p>{task.details}</p>
+          <Button text="Add Checklist"></Button>
+          {showAddChecklist && <AddChecklistItem />}
+        </div>
+      </>
+    );
 }
 
 export default TaskDetails

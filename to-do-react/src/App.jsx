@@ -4,7 +4,10 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Tasks from './components/Tasks';
 import AddTask from './components/AddTask';
-import TaskDetails from './components/TaskDetails';
+import TaskDetails from "./components/TaskDetails";
+// import ChecklistItens from './components/ChecklistItens';
+// import AddChecklistItem from './components/AddChecklistItem';
+
 
 const App = () => {
   const [showAddTask, setShowAddTask] = useState(false)

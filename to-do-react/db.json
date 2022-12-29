@@ -1,36 +1,23 @@
 {
   "tasks": [
     {
-      "title": "Eu sou uma programadora",
-      "details": "",
-      "reminder": false,
-      "id": 2,
-      "completed": false
-    },
-    {
-      "title": "Tudo que eu invisto energia CRESCE",
-      "details": "",
-      "reminder": false,
-      "id": 3
-    },
-    {
       "title": "Sou capaz de aprender qualquer coisa",
       "details": "",
       "reminder": true,
       "id": 4
     },
     {
-      "title": "Devocional hoje",
+      "title": "Eu sou uma programadora",
       "details": "",
       "reminder": false,
-      "id": 5,
-      "completed": false
+      "id": 7
     },
     {
-      "title": "Começar checklist",
-      "details": "Vc dá conta!",
+      "title": "Tudo que eu invisto tempo e energia CRESCE",
+      "details": "Eu dou conta!",
       "reminder": false,
-      "id": 6
+      "id": 8,
+      "completed": false
     }
   ]
 }
