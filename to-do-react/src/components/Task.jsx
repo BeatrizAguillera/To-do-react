@@ -16,7 +16,7 @@ const Task = ({ task, onDelete, onToggleReminder , onToggleCompleted }) => {
             <FaExclamation className='icon' onClick={() => onToggleReminder(task.id)} />
             <FaTimes className='icon' onClick={() => onDelete(task.id)} />
             <FaCheck className='icon' onClick={() => onToggleCompleted(task.id)} />
-            <FaInfo className='icon' onClick={() => navigate("/"+task.title)}/>
+            <FaInfo className='icon' onClick={() => navigate("/tasks/"+task.id)}/>
         </div>
         </div> 
     ) 

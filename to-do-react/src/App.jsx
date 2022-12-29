@@ -120,7 +120,7 @@ const App = () => {
         </>
       }
     />
-    <Route path='/:taskTitle' element={<TaskDetails />} />
+    <Route path='/tasks/:id' element={<TaskDetails />} />
     </Routes>
     </div>
     

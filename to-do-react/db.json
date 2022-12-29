@@ -18,6 +18,19 @@
       "details": "",
       "reminder": true,
       "id": 4
+    },
+    {
+      "title": "Devocional hoje",
+      "details": "",
+      "reminder": false,
+      "id": 5,
+      "completed": false
+    },
+    {
+      "title": "Começar checklist",
+      "details": "Vc dá conta!",
+      "reminder": false,
+      "id": 6
     }
   ]
 }
